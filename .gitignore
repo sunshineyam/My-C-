@@ -1,6 +1,8 @@
-/Debug
+﻿/Debug
 *.sdf
 *.sln
 *.v12.suo
 /非递归实现二叉树遍历/Debug
 /Vetcor/Debug
+/用适配器模拟实现栈和队列/Debug
+/string/Debug

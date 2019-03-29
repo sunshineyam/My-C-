@@ -1,0 +1,30 @@
+﻿生成启动时间为 2019/3/16 星期六 15:58:25。
+     1>项目“E:\code\C++\用适配器模拟实现栈和队列\用适配器模拟实现栈和队列\用适配器模拟实现栈和队列.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>e:\code\c++\用适配器模拟实现栈和队列\用适配器模拟实现栈和队列\priority_queuq.h(32): warning C4018: “<”: 有符号/无符号不匹配
+                 e:\code\c++\用适配器模拟实现栈和队列\用适配器模拟实现栈和队列\priority_queuq.h(30): 编译类 模板 成员函数“void PriorityQueue<int,std::vector<int,std::allocator<_Ty>>,std::greater<_Ty>>::Adjustdown(size_t)”时
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 e:\code\c++\用适配器模拟实现栈和队列\用适配器模拟实现栈和队列\priority_queuq.h(57): 参见对正在编译的函数 模板 实例化“void PriorityQueue<int,std::vector<int,std::allocator<_Ty>>,std::greater<_Ty>>::Adjustdown(size_t)”的引用
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 e:\code\c++\用适配器模拟实现栈和队列\用适配器模拟实现栈和队列\priority_queuq.h(81): 参见对正在编译的类 模板 实例化“PriorityQueue<int,std::vector<int,std::allocator<_Ty>>,std::greater<_Ty>>”的引用
+                 with
+                 [
+                     _Ty=int
+                 ]
+     1>e:\code\c++\用适配器模拟实现栈和队列\用适配器模拟实现栈和队列\priority_queuq.h(36): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\code\C++\用适配器模拟实现栈和队列\Debug\用适配器模拟实现栈和队列.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\code\C++\用适配器模拟实现栈和队列\Debug\用适配器模拟实现栈和队列.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\code\C++\用适配器模拟实现栈和队列\Debug\用适配器模拟实现栈和队列.lib" /MACHINE:X86 Debug\test.obj
+         用适配器模拟实现栈和队列.vcxproj -> E:\code\C++\用适配器模拟实现栈和队列\Debug\用适配器模拟实现栈和队列.exe
+     1>已完成生成项目“E:\code\C++\用适配器模拟实现栈和队列\用适配器模拟实现栈和队列\用适配器模拟实现栈和队列.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.31

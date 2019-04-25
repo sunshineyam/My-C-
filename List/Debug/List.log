@@ -1,0 +1,17 @@
+﻿生成启动时间为 2019/3/12 星期二 17:18:17。
+     1>项目“E:\code\C++\List\List\List.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>e:\code\c++\list\list\list.h(120): error C2662: “void My::List<int>::Swap(My::List<int> &)”: 不能将“this”指针从“const My::List<int>”转换为“My::List<int> &”
+                 转换丢失限定符
+                 e:\code\c++\list\list\list.h(116): 编译类 模板 成员函数“My::List<int> &My::List<int>::operator =(const My::List<int> &) const”时
+                 e:\code\c++\list\list\test.cpp(107): 参见对正在编译的函数 模板 实例化“My::List<int> &My::List<int>::operator =(const My::List<int> &) const”的引用
+                 e:\code\c++\list\list\test.cpp(6): 参见对正在编译的类 模板 实例化“My::List<int>”的引用
+     1>e:\code\c++\list\list\list.h(122): error C2440: “return”: 无法从“const My::List<int>”转换为“My::List<int> &”
+                 转换丢失限定符
+     1>已完成生成项目“E:\code\C++\List\List\List.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.76
